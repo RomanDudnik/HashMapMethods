@@ -40,6 +40,7 @@ public class Program {
         /**
          * используем цикл foreach для перебора всех значений в нашей структуре данных MyHashMap.
          */
+        System.out.println("Элементы в хэш-таблице: ");
         for (String value : myHashMap) {
             System.out.println(value);  // Выводим значение переменной `value` в консоль
         }
@@ -58,9 +59,10 @@ public class Program {
        System.out.println(val == null ? "Запись не найдена" : "Запись получена: " + val);
        System.out.println();
 
-        for (String value : myHashMap) {
-            System.out.println(value);
-        }
+       System.out.println("Элементы в хэш-таблице: ");
+       for (String value : myHashMap) {
+           System.out.println(value);
+       }
 
 
     }
